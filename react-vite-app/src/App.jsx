@@ -48,8 +48,7 @@ const App = () => {
           <Route path="/signin" element={<Signin />} />
           <Route path="/posts" element={<PostCard />} />
           <Route path="/groups" element={<Groups />} />
-        </Routes>
-       
+        </Routes>     
       </div>
     </Router>
   );
